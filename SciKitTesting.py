@@ -105,7 +105,7 @@ def Augment():
     np.save("iris_test_features_augmented.npy",x_test)
     np.save("iris_test_labels_augmented.npy",y_test)
 
-# ****esting Scikit Models********************************************************************
+# ****Testing Scikit Models********************************************************************
 
 def run(x_train, y_train, x_test, y_test, clf):
     clf.fit(x_train, y_train)
